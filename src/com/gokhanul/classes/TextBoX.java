@@ -1,6 +1,6 @@
-package com.gokhanul;
+package com.gokhanul.classes;
 
-public class JavaClasses {
+public class TextBoX {
 
     // A class in java is a blueprint that defines what an object is and what it can do.
     // It groups data (variables) and behavior (methods) into one logical unit.
@@ -14,19 +14,13 @@ public class JavaClasses {
     // They are the foundation of Object-Oriented Programming, which Java is built on.
     // Example:
 
-    public class TextBox {
+    public String text = "";  // Field
 
-        public String text;  // Field
+    public void setText(String text) {
+        this.text = text;
+    }
 
-        public void setText(String text) {
-            this.text = text;
-        }
-
-        public void clear() {
-            text = "";
-        }
+    public void clear() {
+        text = "";
     }
 }
-
-
-
