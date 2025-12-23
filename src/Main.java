@@ -1,3 +1,4 @@
+import com.gokhanul.classes.Employee;
 import com.gokhanul.classes.TextBoX;
 
 public class Main {
@@ -17,5 +18,20 @@ public class Main {
         System.out.println();
         System.out.println("===============================================================");
         System.out.println();
+
+        System.out.println("Example for Employee Object");
+
+        var employee = new Employee();
+        employee.baseSalary = 50_000;
+        employee.hourlyRate = 20;
+        int wage = employee.calculateWage(10);
+        System.out.println(wage);
+
+        System.out.println();
+        System.out.println("===============================================================");
+        System.out.println();
+
+
+
     }
 }
