@@ -1,6 +1,6 @@
 package com.gokhanul.classes;
 
-public class proceduralProgramming {
+public class ProceduralProgramming {
 
     // With this procedural programming example we will compare it with OOP to see the benefits of OOP
 

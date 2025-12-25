@@ -1,6 +1,6 @@
 package com.gokhanul.classes;
 
-public class Employee {
+public class ObjectExample {
 
     // Benefits of Object-Oriented Programming (OOP) Compared to Procedural Programming
     // Procedural programming focuses on functions and step-by-step instructions, while Object-Oriented Programming (OOP) focuses on objects that represent real-world entities. OOP provides several important advantages that make software easier to build, maintain, and scale.
@@ -25,49 +25,11 @@ public class Employee {
     // 7. Improved Collaboration
     // In team environments, OOP allows developers to work on separate classes independently, reducing conflicts.
     // Procedural codebases often require more coordination due to shared logic and data.
-
-    private int baseSalary;
-    private int hourlyRate;
+    public int baseSalary;
+    public int hourlyRate;
 
     public int calculateWage(int extraHours) {
         return baseSalary + (hourlyRate * extraHours);
     }
-
-    //----------------------------------------------------------------------------------------------------------
-
-    // SETTERS
-    // A setter is a method used to set or update the value of a private variable from outside the class.
-    // It's a core p;art of encapsulation, one of the main OOP principles.
-        // They protect internal state by preventing direct access to variables.
-        // They allow validation or rules before assigning a value.
-        // They make your code easier to maintain and test.
-    public void setBaseSalary(int baseSalary) {
-        if (baseSalary <= 0)
-            throw new IllegalArgumentException("Salary cannot be 0 or less!");
-        this.baseSalary = baseSalary;
-    }
-
-    public void setHourlyRate(int hourlyRate) {
-        if (hourlyRate <= 0)
-            throw new IllegalArgumentException("Hourly rate cannot be 0 or negative!");
-        this.hourlyRate = hourlyRate;
-    }
-
-    //----------------------------------------------------------------------------------------------------------
-
-    // GETTERS
-    // A getter is a method used to read or retrieve the value of a private variable.
-    // It provides controlled access without allowing modification.
-         // They expose data safely.
-         // They allow read-only access when needed.
-         // They support debugging, logging, and testing.
-    public int getBaseSalary() {
-        return baseSalary;
-    }
-
-    public int getHourlyRate() {
-        return hourlyRate;
-    }
-
-
 }
+

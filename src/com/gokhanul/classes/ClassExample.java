@@ -1,6 +1,6 @@
 package com.gokhanul.classes;
 
-public class TextBoX {
+public class ClassExample {
 
     // A class in java is a blueprint that defines what an object is and what it can do.
     // It groups data (variables) and behavior (methods) into one logical unit.
