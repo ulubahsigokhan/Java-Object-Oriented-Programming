@@ -1,3 +1,4 @@
+import com.gokhanul.classes.Abstraction;
 import com.gokhanul.classes.GettersAndSetters;
 import com.gokhanul.classes.ObjectExample;
 import com.gokhanul.classes.ClassExample;
@@ -36,5 +37,13 @@ public class Main {
         GettersAndSetters.setHourlyRate(20);
         int wage = GettersAndSetters.wageCal(20);
         System.out.println(wage);
+
+        System.out.println();
+        System.out.println("===============================================================");
+        System.out.println();
+
+        System.out.println("");
+
+
     }
 }
