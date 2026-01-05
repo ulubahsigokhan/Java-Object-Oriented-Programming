@@ -52,7 +52,31 @@ public class Exceptions {
         //    if (age < 0) {
         //        throw new IllegalArgumentException("Age cannot be negative");
         //    }
+        // }
+
+        //-------------------------------------------------------------------------------------------------
+
+        // TRY-CATCH-FINALLY
+        // try-catch-finally is used to handle exceptions safely and ensure certain code always executes,
+        // whether an error occurs or not.
+        /*
+        public class TryCatchFinallyExample {
+
+            public static void main(String[] args) {
+                try {
+                    int result = 10 / 0;   // risky code
+                    System.out.println("Result: " + result);
+                } catch (ArithmeticException e) {
+                    System.out.println("Error: Division by zero");
+                } finally {
+                    System.out.println("Finally block executed");
+                }
+                System.out.println("Program continues...");
+            }
         }
+
+         */
+
 
     }
 
